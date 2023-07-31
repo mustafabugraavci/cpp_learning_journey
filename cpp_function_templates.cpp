@@ -1,6 +1,8 @@
 #include <iostream>
 
 template <typename T> T maximum(T a, T b);
+
+// This code defines a function template that adds two numbers together.
 template <typename T> T add(T a, T b);
 
 int main()
