@@ -6,5 +6,7 @@ int main() {
     myCar->displayInfo();
     (*myCar).displayInfo();
 
+    delete myCar;
+
     return 0;
 }
